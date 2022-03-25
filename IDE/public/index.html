@@ -10,7 +10,7 @@
     <script src="js/jquery.js"></script>
   </head>
 
-  <body>
+  <body class="app dark">
     <svg data-drag-svg></svg>
 
     <div class="upper" data-upper>
@@ -503,6 +503,13 @@ document.write(generateInputGain(8));
                     <td class="left-choice">View hidden files:</td>
                     <td class="right-choice">
                       <input type="checkbox" id="viewHiddenFiles" class="settingsManager checkbox-slider" data-func="setIDESetting" data-key="viewHiddenFiles" value="1" >
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="left-choice">Dark Theme:</td>
+                    <td class="right-choice">
+                      <input type="checkbox" id="darkTheme" class="settingsManager checkbox-slider" data-func="setIDESetting" data-key="darkTheme" value="1" >
                     </td>
                   </tr>
 
